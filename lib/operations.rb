@@ -2,16 +2,16 @@ require 'pry'
 
 def unsafe?(speed)
   if speed < 40 || speed > 60
-    return TRUE
+    return true
   else
-    return FALSE
+    return false
 
 end
 
 
 
 def not_safe?(speed)
-  puts TRUE if speed < 40 || speed >60
+  puts true if speed < 40 || speed >60
   binding.pry
 end
 	
